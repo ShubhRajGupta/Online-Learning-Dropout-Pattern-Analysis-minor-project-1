@@ -1,9 +1,4 @@
-Online Learning Dropout Pattern Analysis
-
-
-
-
-
+## title {.tabset .tabset-fade}
 Overview
 
 This project is about understanding how students drop out from online courses. 
@@ -11,20 +6,10 @@ In many online platforms, lot of students join the course but many of them donâ€
 The main idea was not to build any prediction model or advanced AI,
 but to use simple statistics and visualization to see patterns. 
 
-
-
-
 Objectives
 To divide students into early, mid and late dropouts
 To compare engagement level between these groups
 To check relation between activity data and dropout timing
-
-
-
-
-
-
-
 
 Dataset
 
@@ -78,3 +63,32 @@ The UI is kept very simple and only used for visualization, not logic.
 
 Author
 Shubh Raj
+.
+
+### tab Social-Media
+
+tab content Social-Media
+
+### tab Contact
+
+tab content  Contact
+
+### tab Revisions
+
+tab content  Revisions
+
+### tab Articles
+
+tab content  Articles
+
+### tab Skills
+
+tab content  Skills
+
+### tab Insights
+
+tab content  Insights
+
+content below tabbed region
+### Online Learning Dropout Pattern Analysis
+
