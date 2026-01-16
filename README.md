@@ -1,94 +1,78 @@
-## title {.tabset .tabset-fade}
-Overview
+## Online Learning Dropout Pattern Analysis {.tabset .tabset-fade}
 
-This project is about understanding how students drop out from online courses. 
-In many online platforms, lot of students join the course but many of them don’t complete it. 
-The main idea was not to build any prediction model or advanced AI,
-but to use simple statistics and visualization to see patterns. 
+### Overview
 
-Objectives
-To divide students into early, mid and late dropouts
-To compare engagement level between these groups
-To check relation between activity data and dropout timing
+This project is about understanding how students drop out from online courses.  
+In many online platforms, a lot of students join courses but many do not complete them.  
+The goal is not prediction or advanced AI, but simple statistics and visualization.
 
-Dataset
+### Objectives
 
-I used a synthetic dataset for this project. Real student data is difficult to get and also has privacy issues, so generating fake but realistic data was safer.
-1.The dataset contains things like:
-2.Course duration
-3.Last day student was active
-4.Number of assignments submitted
-5.Total video watch time
-6.Average quiz score
+- Divide students into early, mid, and late dropouts  
+- Compare engagement levels between groups  
+- Analyze relationship between activity and dropout timing  
 
+### Dataset
 
+A synthetic dataset was used due to privacy and availability constraints.
 
-Tools and Libraries: Google Colab, NumPy, Pandas, Matplotlib, Seaborn, Gradio (for simple UI)
+The dataset includes:
+- Course duration  
+- Last active day  
+- Number of assignments submitted  
+- Total video watch time  
+- Average quiz score  
 
-Visualizations Used:
+### Tools
 
-To understand the data better, I used multiple visualizations:
+Google Colab, NumPy, Pandas, Matplotlib, Seaborn, Gradio
 
-Bar plots to see dropout count
-Box plots to compare engagement between groups
-Violin plots to understand distribution
-Scatter plots to see relation between engagement and dropout ratio
-Correlation heatmap for numeric relationships
-These plots made it easier to see patterns instead of just numbers.
+### Visualizations
 
+- Bar plots for dropout count  
+- Box plots for engagement comparison  
+- Violin plots for distribution  
+- Scatter plots for engagement vs dropout  
+- Correlation heatmap  
 
+### Results & Observations
 
+- Many students drop out early  
+- Higher engagement correlates with course completion  
+- Quiz score alone is not a strong indicator  
+- Engagement matters more than performance  
 
+### UI (Gradio)
 
-Results and Observations
+A simple interactive UI allows:
+- Selecting dropout phase  
+- Choosing plot types  
+- Viewing sample data  
 
-From the analysis, few important things were observed:
-Many students drop out very early in the course
-Students who stay longer usually watch more videos and submit more assignments
-Quiz score alone does not explain dropout clearly
-Engagement seems more important than performance
+### Author
 
-
-hii
-
-
-
-UI (Gradio)
-A simple Gradio based UI was added so that the analysis can be explored interactively.
-Using the UI, user can:
-Select dropout phase
-Choose different type of plots
-View sample data
-The UI is kept very simple and only used for visualization, not logic.
-
-Author
 Shubh Raj
-.
 
-### tab Social-Media
+### Social Media
 
-tab content Social-Media
+Content here
 
-### tab Contact
+### Contact
 
-tab content  Contact
+Content here
 
-### tab Revisions
+### Revisions
 
-tab content  Revisions
+Content here
 
-### tab Articles
+### Articles
 
-tab content  Articles
+Content here
 
-### tab Skills
+### Skills
 
-tab content  Skills
+Content here
 
-### tab Insights
+### Insights
 
-tab content  Insights
-
-content below tabbed region
-### Online Learning Dropout Pattern Analysis
-
+Content here
